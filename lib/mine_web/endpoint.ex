@@ -40,7 +40,7 @@ defmodule MineWeb.Endpoint do
   plug Plug.Session,
     store: :cookie,
     key: "_mine_key",
-    signing_salt: "fyGRecaN"
+    signing_salt: "8l1EHIEN"
 
   plug MineWeb.Router
 end

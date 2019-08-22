@@ -13,7 +13,7 @@ config :mine,
 # Configures the endpoint
 config :mine, MineWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "v+cb6ddJmwQrU69ner5CK9XWf2DPM8dcju5XT5AIO42N/8XmY4kMa97lA1vBKfJ4",
+  secret_key_base: "30jKxJUMlNjvDbOwL6UGqpaZd/YMNkzJakb5+t4MCi4t7WBKTkeLxJANHH5Q0MoJ",
   render_errors: [view: MineWeb.ErrorView, accepts: ~w(html json)],
   pubsub: [name: Mine.PubSub, adapter: Phoenix.PubSub.PG2]
 
